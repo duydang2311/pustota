@@ -1,0 +1,525 @@
+{
+  "name": "pustota less dark",
+  "$schema": "vscode://schemas/color-theme",
+  "type": "dark",
+
+  // Colors:
+  // Black: #191919
+  // Grey: #B3B1AD
+  // Light grey: #B3B1ADBF // 75% alpha
+  // Yellow: #E6B450
+  // Orange: #FFB454
+  // Red: #FF8F40
+  // Blue: #59C2FF
+
+  // There are several default VSCode colors that we don't customize:
+  // - diffs
+  // - replacements
+  // - some other internals
+
+  "colors": {
+    // TODO:
+    // 1. Colors
+    // 2. ANSI
+    // 3. Search bar border
+
+    // Editor
+    // ======
+
+    // Editor does contain some extra colors, because this is what I'm used to.
+    "editor.background": "#191919",
+    "editor.findMatchBackground": "#191919",
+    "editor.findMatchBorder": "#E6B450",
+    "editor.findMatchHighlightBackground": "#e6b4500d",
+    "editor.findMatchHighlightBorder": "#E6B450BE",
+    "editor.findRangeHighlightBackground": "#1b2733f2",
+    "editor.findRangeHighlightBorder": "#19191900",
+    "editor.foreground": "#b3b1ad",
+    "editor.inactiveSelectionBackground": "#1b2733f2",
+    "editor.lineHighlightBackground": "#111111",
+    "editor.rangeHighlightBackground": "#1919190a",
+    "editor.selectionBackground": "#273747",
+    "editor.selectionHighlightBackground": "#1b2733f2",
+    "editor.selectionHighlightBorder": "#304357",
+    "editor.wordHighlightBackground": "#6994bf12",
+    "editor.wordHighlightBorder": "#6994bf80",
+    "editor.wordHighlightStrongBackground": "#91b36212",
+    "editor.wordHighlightStrongBorder": "#91b36280",
+
+    "editorLineNumber.activeForeground": "#B3B1ADCC",
+    "editorLineNumber.foreground": "#B3B1AD80",
+
+    // Stuff that I don't really care about, mostly copied from Ayu Dark:
+    // TODO: rework?
+    "editorBracketMatch.background": "#4d55664d",
+    "editorBracketMatch.border": "#4d556699",
+    "editorCodeLens.foreground": "#626a73",
+    "editorCursor.foreground": "#e6b450",
+    "editorGroup.border": "#111111",
+    "editorGroupHeader.noTabsBackground": "#191919",
+    "editorGroupHeader.tabsBackground": "#191919",
+    "editorGroupHeader.tabsBorder": "#191919",
+    "editorGutter.addedBackground": "#91b36299",
+    "editorGutter.deletedBackground": "#d96c7599",
+    "editorGutter.modifiedBackground": "#6994bf99",
+    "editorHoverWidget.background": "#191919",
+    "editorHoverWidget.border": "#000000",
+    "editorIndentGuide.activeBackground1": "#666666b3",
+    "editorIndentGuide.background1": "#66666633",
+    "editorInfo.foreground": "#00000000",
+    "editorLink.activeForeground": "#e6b450",
+    "editorMarkerNavigation.background": "#191919",
+    "editorOverviewRuler.addedForeground": "#91b36299",
+    "editorOverviewRuler.border": "#111111",
+    "editorOverviewRuler.deletedForeground": "#d96c7599",
+    "editorOverviewRuler.errorForeground": "#ff3333",
+    "editorOverviewRuler.modifiedForeground": "#6994bf99",
+    "editorOverviewRuler.warningForeground": "#e6b450",
+    "editorRuler.foreground": "#66666633",
+    "editorSuggestWidget.background": "#191919",
+    "editorSuggestWidget.border": "#191919",
+    "editorSuggestWidget.highlightForeground": "#e5b358",
+    "editorSuggestWidget.selectedBackground": "#1c2a42",
+    "editorWhitespace.foreground": "#4d556699",
+    "editorWidget.background": "#191919",
+    "editorWidget.resizeBorder": "#191919",
+    "editorWidget.border": "#191919",
+
+    // I do these customizations locally,
+    // because I don't want to see any decorations
+    // on my code from 3rd party tools, but others might not like it:
+    // "editorError.foreground": "#00000000",
+    // "editorWarning.foreground": "#00000000",
+
+    // I am just used to these colors:
+    // TODO: rework?
+    "gitDecoration.addedResourceForeground": "#c2d94c",
+    "gitDecoration.conflictingResourceForeground": "#ff0000",
+    "gitDecoration.deletedResourceForeground": "#d96c75b3",
+    "gitDecoration.ignoredResourceForeground": "#373d49",
+    "gitDecoration.modifiedResourceForeground": "#d4cb68",
+    "gitDecoration.submoduleResourceForeground": "#ffee99b3",
+    "gitDecoration.untrackedResourceForeground": "#91b362b3",
+
+    // General
+    // =======
+
+    "focusBorder": "#191919", // no visial border
+    "errorForeground": "#FF8F40",
+    "foreground": "#B3B1AD",
+
+    "activityBar.activeBorder": "#e5b358",
+    "activityBar.background": "#191919",
+    "activityBar.border": "#191919",
+    "activityBar.foreground": "#B3B1ADBF",
+    "activityBar.inactiveForeground": "#4d556699",
+    "activityBarBadge.background": "#e6b450",
+    "activityBarBadge.foreground": "#191919",
+
+    // Sidebar
+    "sideBar.background": "#191919",
+    "sideBar.border": "#191919",
+    "sideBar.foreground": "#B3B1ADBF",
+    "sideBarSectionHeader.background": "#191919",
+    "sideBarSectionHeader.border": "#191919",
+    "sideBarSectionHeader.foreground": "#B3B1ADBF",
+    "sideBarTitle.foreground": "#191919",
+
+    // Inputs and lists
+    "badge.background": "#e6b45033",
+    "badge.foreground": "#E6B450",
+    "button.background": "#E6B450",
+    "button.foreground": "#191919",
+    "button.hoverBackground": "#e1af4b",
+    "icon.foreground": "#B3B1AD",
+    "input.background": "#191919",
+    "input.border": "#191919",
+    "input.foreground": "#B3B1AD",
+    "input.placeholderForeground": "#B3B1AD80",
+    "inputOption.activeBorder": "#E6B450",
+    "inputValidation.errorBackground": "#191919",
+    "inputValidation.errorBorder": "#FF8F40",
+    "inputValidation.infoBackground": "#191919",
+    "inputValidation.infoBorder": "#59C2FF",
+    "inputValidation.warningBackground": "#191919",
+    "inputValidation.warningBorder": "#E6B450",
+
+    "debugExceptionWidget.background": "#191919",
+    "debugExceptionWidget.border": "#191919",
+    "debugToolBar.background": "#191919",
+    "descriptionForeground": "#4d5566",
+    "diffEditor.insertedTextBackground": "#c2d94c26",
+    "diffEditor.removedTextBackground": "#f2966826",
+    "dropdown.background": "#191919",
+    "dropdown.border": "#2b303a",
+    "dropdown.foreground": "#4d5566",
+
+    "textBlockQuote.background": "#191919",
+    "textLink.activeForeground": "#e6b450",
+    "textLink.foreground": "#e6b450",
+    "textPreformat.foreground": "#b3b1ad",
+    "tree.indentGuidesStroke": "#666666b3",
+    "walkThrough.embeddedEditorBackground": "#191919",
+    "widget.shadow": "#191919",
+
+    "list.hoverBackground": "#191919",
+    "list.hoverForeground": "#B3B1AD",
+    "list.activeSelectionBackground": "#191919",
+    "list.activeSelectionForeground": "#E6B450",
+    "list.inactiveSelectionBackground": "#191919",
+    "list.focusAndSelectionOutline": "#191919", // no visial border
+    "list.errorForeground": "#FF8F40",
+    "list.filterMatchBackground": "#e6b4500d",
+    "list.filterMatchBorder": "#e6b450",
+    "list.focusBackground": "#191919",
+    "list.focusForeground": "#4d5566",
+    "list.highlightForeground": "#e6b450",
+    "list.inactiveSelectionForeground": "#4d5566",
+    "list.invalidItemForeground": "#414856",
+    "listFilterWidget.background": "#191919",
+    "listFilterWidget.noMatchesOutline": "#FF8F40",
+    "listFilterWidget.outline": "#e6b450",
+
+    // TODO: rework all the small things
+    "peekView.border": "#191919",
+    "peekViewEditor.background": "#191919",
+    "peekViewEditor.matchHighlightBackground": "#e6b45033",
+    "peekViewResult.background": "#191919",
+    "peekViewResult.fileForeground": "#4d5566",
+    "peekViewResult.matchHighlightBackground": "#e6b45033",
+    "peekViewTitle.background": "#191919",
+    "peekViewTitleDescription.foreground": "#4d5566",
+    "peekViewTitleLabel.foreground": "#4d5566",
+    "pickerGroup.border": "#191919",
+    "pickerGroup.foreground": "#373d49",
+    "progressBar.background": "#e6b450",
+    "scrollbar.shadow": "#191919",
+    "scrollbarSlider.activeBackground": "#666666b3",
+    "scrollbarSlider.background": "#66666633",
+    "scrollbarSlider.hoverBackground": "#4d556699",
+    "selection.background": "#273747fd",
+    "settings.headerForeground": "#b3b1ad",
+    "settings.modifiedItemIndicator": "#6994bf",
+
+    // Quick input (cmd + p)
+    "quickInput.background": "#191919",
+    "quickInput.foreground": "#B3B1ADBF",
+    "quickInputList.focusBackground": "#191919",
+    "quickInputList.focusForeground": "#e5b358",
+
+    // Panels
+    "panel.background": "#191919",
+    "panel.border": "#191919",
+    "panelTitle.activeBorder": "#e6b450",
+    "panelTitle.activeForeground": "#B3B1AD",
+    "panelTitle.inactiveForeground": "#4d5566",
+    "panelSectionHeader.foreground": "#B3B1AD",
+
+    // Title
+    "titleBar.activeBackground": "#191919",
+    "titleBar.activeForeground": "#B3B1AD",
+    "titleBar.border": "#191919", // no visial border
+    "titleBar.inactiveBackground": "#191919",
+    "titleBar.inactiveForeground": "#B3B1AD",
+
+    // Statusbar
+    "statusBar.background": "#191919",
+    "statusBar.border": "#191919",
+    "statusBar.debuggingBackground": "#f29668",
+    "statusBar.debuggingForeground": "#191919",
+    "statusBar.foreground": "#4d5566",
+    "statusBar.noFolderBackground": "#191919",
+    "statusBarItem.activeBackground": "#111111",
+    "statusBarItem.hoverBackground": "#111111",
+    "statusBarItem.prominentBackground": "#111111",
+    "statusBarItem.prominentHoverBackground": "#00000030",
+
+    // Tabs
+    "tab.activeBackground": "#191919",
+    "tab.activeBorder": "#e6b450",
+    "tab.activeForeground": "#b3b1ad",
+    "tab.border": "#191919",
+    "tab.inactiveBackground": "#191919",
+    "tab.inactiveForeground": "#4d5566",
+    "tab.unfocusedActiveBorder": "#4d5566",
+    "tab.unfocusedActiveForeground": "#4d5566",
+    "tab.unfocusedInactiveForeground": "#4d5566",
+
+    // Terminal
+    // TODO: rework ansi colors
+    "terminal.ansiBlack": "#111111",
+    "terminal.ansiBlue": "#53bdfa",
+    "terminal.ansiBrightBlack": "#686868",
+    "terminal.ansiBrightBlue": "#59c2ff",
+    "terminal.ansiBrightCyan": "#95e6cb",
+    "terminal.ansiBrightGreen": "#c2d94c",
+    "terminal.ansiBrightMagenta": "#ffee99",
+    "terminal.ansiBrightRed": "#f07178",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightYellow": "#ffb454",
+    "terminal.ansiCyan": "#90e1c6",
+    "terminal.ansiGreen": "#91b362",
+    "terminal.ansiMagenta": "#fae994",
+    "terminal.ansiRed": "#ea6c73",
+    "terminal.ansiWhite": "#c7c7c7",
+    "terminal.ansiYellow": "#f9af4f",
+    "terminal.background": "#191919",
+    "terminal.foreground": "#b3b1ad",
+
+    // Other
+    "extensionButton.prominentBackground": "#e6b450",
+    "extensionButton.prominentForeground": "#191919",
+    "extensionButton.prominentHoverBackground": "#e1af4b"
+  },
+
+  "tokenColors": [
+    // Group 1: comments
+    {
+      "scope": [
+        "comment",
+
+        "comment.block.documentation storage.type.class",
+        "comment.block.documentation storage.type",
+        "comment.block.documentation storage",
+        "comment.block.documentation keyword.other"
+      ],
+      "settings": {
+        "foreground": "#626A73",
+        "fontStyle": "italic"
+      }
+    },
+
+    // Group 2: strings / text
+    {
+      "scope": [
+        "string",
+        "constant.other.symbol",
+        "constant.character.escape",
+
+        // Markdown:
+        "markup.quote meta.paragraph"
+      ],
+      "settings": {
+        "foreground": "#C2D94C"
+      }
+    },
+
+    // Group 3: constants
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "support.constant",
+
+        // CSS:
+        "constant.other.color",
+        // HTML:
+        "string.unquoted.html"
+      ],
+      "settings": {
+        "foreground": "#E6B450"
+      }
+    },
+
+    // Group 4: keywords and operators
+    {
+      "scope": [
+        "keyword",
+        "keyword.operator",
+        "storage.modifier",
+        "support.macro",
+        "storage.type.function",
+        "storage.type.class",
+        "punctuation.definition.decorator", // `@` operator
+        "punctuation.definition.annotation",
+        "punctuation.decorator",
+        "punctuation.separator.continuation.line",
+        "punctuation.separator.annotation.result", // `->` operator in annotations
+
+        // C:
+        "constant.character.escape.line-continuation", // `\` operator
+        // JS:
+        "meta.method.declaration storage.type", // `constructor`
+        // TS:
+        "meta.var.expr storage.type", // `type`
+        "meta.interface storage.type.interface", // `interface`
+        "meta.type.declaration storage.type.type",
+        // Rust:
+        "punctuation.definition.attribute", // `#[]`
+        "punctuation.brackets.attribute",
+        "storage.type.rust",
+        // Ruby:
+        "punctuation.separator.other.ruby", // `:` in ternary
+        // Lisp:
+        "storage.type.function-type.lisp", // `def*`
+        // Markdown:
+        "entity.name.section.markdown", // headers
+        // HTML / JSX / TSX:
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end",
+        // TOML:
+        "source.toml support.type.property-name.table",
+        "source.toml support.type.property-name.array",
+        // INI:
+        "entity.name.section.group-title",
+        // Makefile:
+        "support.function.target.PHONY"
+      ],
+      "settings": {
+        "foreground": "#FF8F40"
+      }
+    },
+
+    // Group 5: Function definitions
+    {
+      "scope": [
+        "meta.definition entity.name.function",
+        "meta.definition support.function",
+        "meta.function.definition entity.name.function",
+
+        // Python:
+        "meta.function.python entity.name.function",
+        "meta.function.python support.function",
+        // Rust:
+        "meta.macro.rules entity.name.function.macro.rust",
+        // Ruby:
+        "meta.function.method entity.name.function",
+        // PHP:
+        "meta.function.php entity.name.function",
+        // Haskell:
+        "meta.function.type-declaration entity.name.function",
+        // SASS / SCSS:
+        "meta.at-rule entity.name.function",
+        "meta.at-rule support.function",
+        // Bash:
+        "meta.function entity.name.function.shell",
+        // Lisp:
+        "entity.name.function.lisp",
+
+        // ---
+        // Not really functions, but these elements also need a color accent
+        // ---
+
+        // Markdown:
+        "markup.inline.raw.string",
+        // HTML / JSX / TSX:
+        "entity.other.attribute-name",
+        // Makefile:
+        "entity.name.function.target.makefile"
+      ],
+      "settings": {
+        "foreground": "#FFB454"
+      }
+    },
+
+    // Group 6: Type definitons
+    {
+      "scope": [
+        "meta.class entity.name.type",
+
+        // C:
+        "source.c storage.type",
+        // Rust:
+        "entity.name.type.struct",
+        "entity.name.type.trait",
+        // Dart:
+        "support.class.dart",
+        // Elixir:
+        "meta.module entity.name.type.module",
+        // Haskell:
+        "meta.declaration storage.type.haskell",
+        // TS:
+        "meta.type.declaration entity.name.type.alias",
+        "meta.interface entity.name.type.interface",
+        // Lisp:
+        "entity.name.type.lisp",
+
+        // ---
+        // Not really types, but these elements also need a color accent
+        // ---
+
+        // CSS / SCSS / SASS / Stylus:
+        "entity.name.tag.css",
+        // Markdown
+        "meta.link.inline string.other.link.title",
+        "meta.image.inline string.other.link.description"
+      ],
+      "settings": {
+        "foreground": "#59C2FF"
+      }
+    },
+
+    // Everything else:
+    {
+      "scope": [
+        "storage.modifier.import",
+        "storage.modifier.package",
+        "entity.name.type.package",
+        "entity.name.function.support",
+        "entity.name.function.decorator",
+        "meta.function.decorator support.type",
+
+        // Special case: no special formatting for invalid nodes:
+        "invalid",
+
+        // Some operators are just punctuation:
+        "keyword.operator.key-value",
+        "keyword.operator.access.dot",
+        "keyword.operator.namespace",
+
+        // TS:
+        "meta.type.annotation entity.name.type",
+        "meta.return.type entity.name.type",
+        "meta.type.parameters entity.name.type",
+        "keyword.operator.type.annotation.ts",
+        // JSON:
+        "support.type.property-name",
+        // YAML:
+        "entity.name.tag.yaml",
+        // CSS:
+        "string.quoted.double.attribute-value",
+        // Elixir and Ruby:
+        "constant.language.symbol",
+        "constant.other.symbol.hashkey",
+        // PHP:
+        "meta.method-call.static keyword.operator",
+        "keyword.operator.return-value.php",
+        "keyword.operator.class.php",
+        // Lisp:
+        "keyword.constant.lisp", // :value
+        // editorconfig:
+        "source.editorconfig keyword.other.definition",
+        // INI:
+        "source.ini punctuation.definition.entity",
+        "keyword.other.definition.ini",
+        // Bash:
+        "string.unquoted.argument.shell",
+        "string.interpolated.dollar.shell",
+        "source.shell string.unquoted.argument"
+      ],
+      "settings": {
+        "foreground": "#B3B1AD"
+      }
+    },
+
+    // Special cases (font changes, mostly for markup languages)
+    {
+      "scope": ["markup.italic"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["markup.bold"],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["markup.strikethrough"],
+      "settings": {
+        "fontStyle": "strikethrough"
+      }
+    }
+  ]
+}
