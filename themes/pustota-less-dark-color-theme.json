@@ -363,7 +363,9 @@
         // INI:
         "entity.name.section.group-title",
         // Makefile:
-        "support.function.target.PHONY"
+        "support.function.target.PHONY",
+        // C#:
+        "storage.type.namespace.cs"
       ],
       "settings": {
         "foreground": "#FF8F40"
@@ -442,7 +444,10 @@
         "entity.name.tag.css",
         // Markdown
         "meta.link.inline string.other.link.title",
-        "meta.image.inline string.other.link.description"
+        "meta.image.inline string.other.link.description",
+        // C#:
+        "entity.name.type.namespace.cs",
+        "entity.name.type.class.cs"
       ],
       "settings": {
         "foreground": "#59C2FF"
