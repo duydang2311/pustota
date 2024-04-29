@@ -365,7 +365,8 @@
         // Makefile:
         "support.function.target.PHONY",
         // C#:
-        "storage.type.namespace.cs"
+        "storage.type.namespace.cs",
+        "storage.type.var.cs"
       ],
       "settings": {
         "foreground": "#FF8F40"
@@ -447,7 +448,8 @@
         "meta.image.inline string.other.link.description",
         // C#:
         "entity.name.type.namespace.cs",
-        "entity.name.type.class.cs"
+        "entity.name.type.class.cs",
+        "entity.name.type.cs"
       ],
       "settings": {
         "foreground": "#59C2FF"
