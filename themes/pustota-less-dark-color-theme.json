@@ -368,7 +368,8 @@
         "storage.type.namespace.cs",
         "storage.type.var.cs",
         "storage.type.struct.cs",
-        "storage.type.record.cs"
+        "storage.type.record.cs",
+        "storage.type.accessor"
       ],
       "settings": {
         "foreground": "#FF8F40"
