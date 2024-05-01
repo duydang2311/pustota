@@ -366,7 +366,9 @@
         "support.function.target.PHONY",
         // C#:
         "storage.type.namespace.cs",
-        "storage.type.var.cs"
+        "storage.type.var.cs",
+        "storage.type.struct.cs",
+        "storage.type.record.cs"
       ],
       "settings": {
         "foreground": "#FF8F40"
