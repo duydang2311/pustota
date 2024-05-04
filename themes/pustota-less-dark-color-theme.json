@@ -66,7 +66,6 @@
     "editorHoverWidget.border": "#000000",
     "editorIndentGuide.activeBackground1": "#666666b3",
     "editorIndentGuide.background1": "#66666633",
-    "editorInfo.foreground": "#00000000",
     "editorLink.activeForeground": "#e6b450",
     "editorMarkerNavigation.background": "#191919",
     "editorOverviewRuler.addedForeground": "#91b36299",
@@ -90,6 +89,7 @@
     // on my code from 3rd party tools, but others might not like it:
     // "editorError.foreground": "#00000000",
     // "editorWarning.foreground": "#00000000",
+    "editorInfo.foreground": "#59C2FF",
 
     // I am just used to these colors:
     // TODO: rework?
